@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "username": "admin",
+      "password_hash": "$2b$10$Bo5HTD6H53asCG2QAuNizecqWfu7uh2R.EbDIYNSOU3DjICA2Ap86",
+      "name": "FEELFST Admin",
+      "role": "admin",
+      "created_at": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr-staff-01",
+      "username": "staff",
+      "password_hash": "$2b$10$9UQ9h5p/AdNj2xyfi2yoyuljbtIgB4iBLZk3.r8ZhdZsVyyIj2hTa",
+      "name": "Cashier Staff",
+      "role": "staff",
+      "created_at": "2026-09-01T08:30:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1789649315941-884q",
+      "design": "TELEVISI",
+      "colour": "BLACK",
+      "code": "FLTS-0001-BLK",
+      "type": "T-Shirt",
+      "cost_price": 90000,
+      "retail_price": 150000,
+      "created_at": "2026-09-17T12:48:35.941Z",
+      "updated_at": "2026-09-17T12:48:35.941Z"
+    }
+  ],
+  "stock_in": [
+    {
+      "id": "stkin-1789649339664",
+      "invoice_no": "IN-20260917-623",
+      "date": "2026-09-17",
+      "vendor": "Made Konveksi",
+      "tax": 0,
+      "notes": "Production batch new",
+      "total_qty": 15,
+      "total_cost": 1350000,
+      "created_by": "FEELFST Admin",
+      "created_at": "2026-09-17T12:48:59.664Z",
+      "items": [
+        {
+          "id": "stkitem-1789649339664-aviyg",
+          "stock_in_id": "stkin-1789649339664",
+          "product_id": "prod-1789649315941-884q",
+          "size": "S",
+          "quantity": 3,
+          "cost_price": 90000
+        },
+        {
+          "id": "stkitem-1789649339664-qr7zi",
+          "stock_in_id": "stkin-1789649339664",
+          "product_id": "prod-1789649315941-884q",
+          "size": "M",
+          "quantity": 3,
+          "cost_price": 90000
+        },
+        {
+          "id": "stkitem-1789649339664-yrr9j",
+          "stock_in_id": "stkin-1789649339664",
+          "product_id": "prod-1789649315941-884q",
+          "size": "L",
+          "quantity": 3,
+          "cost_price": 90000
+        },
+        {
+          "id": "stkitem-1789649339664-c02us",
+          "stock_in_id": "stkin-1789649339664",
+          "product_id": "prod-1789649315941-884q",
+          "size": "XL",
+          "quantity": 3,
+          "cost_price": 90000
+        },
+        {
+          "id": "stkitem-1789649339664-ydj1l",
+          "stock_in_id": "stkin-1789649339664",
+          "product_id": "prod-1789649315941-884q",
+          "size": "XXL",
+          "quantity": 3,
+          "cost_price": 90000
+        }
+      ]
+    }
+  ],
+  "stock_in_items": [
+    {
+      "id": "stkitem-1789649339664-aviyg",
+      "stock_in_id": "stkin-1789649339664",
+      "product_id": "prod-1789649315941-884q",
+      "size": "S",
+      "quantity": 3,
+      "cost_price": 90000
+    },
+    {
+      "id": "stkitem-1789649339664-qr7zi",
+      "stock_in_id": "stkin-1789649339664",
+      "product_id": "prod-1789649315941-884q",
+      "size": "M",
+      "quantity": 3,
+      "cost_price": 90000
+    },
+    {
+      "id": "stkitem-1789649339664-yrr9j",
+      "stock_in_id": "stkin-1789649339664",
+      "product_id": "prod-1789649315941-884q",
+      "size": "L",
+      "quantity": 3,
+      "cost_price": 90000
+    },
+    {
+      "id": "stkitem-1789649339664-c02us",
+      "stock_in_id": "stkin-1789649339664",
+      "product_id": "prod-1789649315941-884q",
+      "size": "XL",
+      "quantity": 3,
+      "cost_price": 90000
+    },
+    {
+      "id": "stkitem-1789649339664-ydj1l",
+      "stock_in_id": "stkin-1789649339664",
+      "product_id": "prod-1789649315941-884q",
+      "size": "XXL",
+      "quantity": 3,
+      "cost_price": 90000
+    }
+  ],
+  "sales": [],
+  "sale_items": [],
+  "stock_out": [],
+  "stock_out_items": [],
+  "expenses": [
+    {
+      "id": "exp-001",
+      "date": "2026-09-06",
+      "description": "Tag",
+      "type": "Barang",
+      "qty": 100,
+      "total_amount": 2000000,
+      "vendor": "Dika tag",
+      "notes": "Pembuatan Label",
+      "created_by": "FEELFST Admin",
+      "created_at": "2026-09-06T15:00:00.000Z"
+    },
+    {
+      "id": "exp-002",
+      "date": "2026-09-04",
+      "description": "Packaging Polymailer & Stickers",
+      "type": "Operasional",
+      "qty": 250,
+      "total_amount": 375000,
+      "vendor": "Surya Packaging",
+      "notes": "Biodegradable mailer bags with FEELFST print",
+      "created_by": "FEELFST Admin",
+      "created_at": "2026-09-04T09:15:00.000Z"
+    }
+  ],
+  "stock_adjustments": [],
+  "payment_channels": [
+    "Shopee",
+    "BCA",
+    "Krisna",
+    "Tokopedia",
+    "Mandiri",
+    "Cashier"
+  ],
+  "expense_categories": [
+    "Barang",
+    "Operasional",
+    "Marketing",
+    "Shipping",
+    "Equipment",
+    "Other"
+  ],
+  "settings": {
+    "shop_name": "FEELFST Clothing & Surf",
+    "low_stock_threshold": 5,
+    "currency": "IDR"
+  },
+  "chat_messages": [
+    {
+      "id": "msg-001",
+      "user_id": "usr-admin-01",
+      "username": "admin",
+      "name": "FEELFST Admin",
+      "role": "admin",
+      "message": "Welcome to FEELFST Team Chat! Use this space for shift handovers, inventory alerts, and team messages.",
+      "created_at": "2026-09-17T12:56:28.254Z",
+      "pinned": true
+    },
+    {
+      "id": "msg-1789649791969-ctb4",
+      "user_id": "usr-staff-01",
+      "username": "staff",
+      "name": "Cashier Staff",
+      "role": "staff",
+      "message": "Morning register opened and verified by staff.",
+      "created_at": "2026-09-17T12:56:31.969Z",
+      "pinned": false
+    }
+  ]
+}

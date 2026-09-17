@@ -1,0 +1,8 @@
+{
+  "name": "FEELFST — Interactive Inventory & Sales Dashboard",
+  "description": "Modern retail inventory and sales management system with real-time stock calculations, POS sales, multi-size tracking, expenses, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
